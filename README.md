@@ -8,7 +8,6 @@
 #####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review.
 https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/assessments/5/submissions 
 #####4.	The application is shared by posting the server.R and ui.R code here on github - see files here at: https://github.com/DataRacer11/Developing-Data-Products-Project/edit/master/README.md
-https://dataracer11shiny.shinyapps.io/Test - Location for Shiny App: 2010 Variable Census Map
 https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/server.R - sharing Server.R on Github
 https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/ui.R - sharing ui.R on Github
 https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/helpers.R - sharing supporting documentation from helpers.R file
