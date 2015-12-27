@@ -3,7 +3,7 @@
 ####Project Goals:
 #####1.	A shiny application has been developed based on the UScensus2010 library at the following site: https://cran.r-project.org/web/packages/UScensus2010/index.html for the peer reviewer and end user of the application. The reviewer/user can choose via radio buttons four variable race selections for 1) Whites 2) Blacks 3) Hispanics and 4) Asians. 
 #####- A variable demographic map has been created using R dataset information from this 2010 US Census - UScensus2010.
-#####- A dataset called counties.rds has been downloaded to RStudio from the follwing site: https://gist.github.com/garrettgman/6465117. Supporting documentation for the app has also been added.      
+#####- A dataset called counties.rds has been downloaded to RStudio from the following site: https://gist.github.com/garrettgman/6465117. Supporting documentation for the app has also been added.      
 #####2.	The application is shared on Rstudio's shiny server at this location: http://rpubs.com/DataRacer11/137835  
 #####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review.
 https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/assessments/5/submissions 
