@@ -16,7 +16,8 @@
 #####5.	The documentation is posted on the Shiny website and NOT posted on an external link.
 #####6. The Shiny application is a simple package or the end user.
 
-###Relevant RStudio Package Information: http://rpackages.ianhowson.com/cran/UScensus2010/man/UScensus2010-package.html 
+###Relevant RStudio Package Information: 
+#####http://rpackages.ianhowson.com/cran/UScensus2010/man/UScensus2010-package.html 
 #####- Package ‘UScensus2010’
 #####- February 19, 2015
 #####- Title US Census 2010 Suite of R Packages
