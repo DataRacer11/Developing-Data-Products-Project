@@ -5,8 +5,7 @@
 #####- A variable demographic map has been created using R dataset information from this 2010 US Census - UScensus2010.
 #####- A dataset called counties.rds has been downloaded to RStudio from the following site: https://gist.github.com/garrettgman/6465117.
 #####2.	The application is shared on Rstudio's shiny server at this location: http://rpubs.com/DataRacer11/137835 where supporting documentation for the app has been added.      
-#####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review.
-https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/assessments/5/submissions 
+#####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review. https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/assessments/5/submissions 
 #####4.	The application is shared by posting the server.R and ui.R code here on github - see files here at:  https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/server.R - sharing server.R on Github
 #####https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/ui.R - sharing ui.R on Github
 #####https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/helpers.R - sharing supporting documentation from helpers.R file
