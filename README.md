@@ -16,7 +16,7 @@
 #####3. Reactive output of individual US maps is diplayed in color as a result of server calculations showing percentages for each race.
 #####4.	Documentation has been added so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" as a simple application.
 #####5.	The documentation is posted on the Shiny website and NOT posted on an external link.
-http://rpubs.com/DataRacer11/137948 - R Presenter explaining Shiny App: 2010 Variable Census Map in RPubs
+http://rpubs.com/DataRacer11/138013 - R Presenter explaining Shiny App: 2010 Variable Census Map in RPubs
 #####6. The Shiny application is a simple package for the end user.
 https://dataracer11shiny.shinyapps.io/Test - Location for Shiny App: 2010 Variable Census Map
 
