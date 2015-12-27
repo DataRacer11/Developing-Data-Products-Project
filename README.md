@@ -17,7 +17,7 @@
 #####6. The Shiny application is a simple package or the end user.
 
 ###Relevant RStudio Package Information: 
-#####http://rpackages.ianhowson.com/cran/UScensus2010/man/UScensus2010-package.html 
+#####https://cran.r-project.org/web/packages/UScensus2010/UScensus2010.pdf
 #####- Package ‘UScensus2010’
 #####- February 19, 2015
 #####- Title US Census 2010 Suite of R Packages
