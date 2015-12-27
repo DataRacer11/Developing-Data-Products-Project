@@ -15,7 +15,7 @@ https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/ass
 #####1.	Two main forms of input (widgets: 4 radio buttons, slider range from 0 to 100%)
 #####2.	An operation on the ui input in sever.R with the following code: (see server.R file) output$map <- renderPlot({ args <- switch(input$radio,....
 #####3. Reactive output of individual US maps is diplayed in color as a result of server calculations showing percentages for each race.
-#####4.	Documentation has been added so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" could use this simple application.
+#####4.	Documentation has been added so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" as a simple application.
 #####5.	The documentation is posted on the Shiny website and NOT posted on an external link
 http://rpubs.com/DataRacer11/137835 - R Presenter explaining Shiny App: 2010 Variable Census Map in RPubs
 #####6. The Shiny application is a simple package for the end user.
