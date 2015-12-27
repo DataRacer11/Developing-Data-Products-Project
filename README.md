@@ -10,17 +10,15 @@ A dataset called counties.rds has been downloaded to RStudio from the follwing s
 
 ####The application includes the following:
 #####1.	Two main forms of input (widgets: 4 radio buttons, slider range from 0 to 100%)
-#####2.	An operation on the ui input in sever.R with the following code: output$map <- renderPlot({ args <- switch(input$radio,
-#####3. Reactive output of the maps diplyed with as a result of server calculations for percentages of the race databeing displayed.
-#####4.	Documentation so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" application was provided.
+#####2.	An operation on the ui input in sever.R with the following code: (see server.R file) output$map <- renderPlot({ args <- switch(input$radio,....
+#####3. Reactive output of individual US maps is diplayed in color as a result of server calculations showing percentages for each race.
+#####4.	Documentation has been added so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" could use this simple application.
 #####5.	The documentation is posted on the Shiny website and NOT as external link.
 #####6. The Shiny application is a simple package or the end user.
 
 ###Relevant Information:
 ##### Package ‘UScensus2010’
 ##### February 19, 2015
-
-#####Type Package
 #####Title US Census 2010 Suite of R Packages
 #####Version 0.11
 #####Date 2011-11-18
