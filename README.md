@@ -1,6 +1,6 @@
 # Developing-Data-Products (DDP) Project 
 
-####Project Goal:
+####Project Goals:
 #####1.	A shiny application has been developed based on the UScensus2010 library at the following site: https://cran.r-project.org/web/packages/UScensus2010/index.html for the peer reviewer and end user of the application. The reviewer/user can choose via radio buttons four variable race selections for 1) Whites 2) Blacks 3) Hispanics and 4) Asians. 
 #####- A variable demographic map has been created using R dataset information from this 2010 US Census - UScensus2010.
 #####- A dataset called counties.rds has been downloaded to RStudio from the follwing site: https://gist.github.com/garrettgman/6465117. Supporting documentation for the app has also been added.      
