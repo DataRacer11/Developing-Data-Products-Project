@@ -1,36 +1,37 @@
 # Developing-Data-Products (DDP) Project 
 
 ####Project Goal:
-#####1.	A shiny application has been created for the peer reviewer and end user of the application to be able to choose via radio buttons six various Clustering Plots with associated text from "Wine Recognition Data" that has been downloaded to RStudio from the follwing site: http://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data with associated supporting documentation.      The documentation depicts what the peer reviewer and end user requires to get started using the application.
-#####2.	The application is shared on Rstudio's shiny server
+#####1.	A shiny application has been developed based on the UScensus2010 library at the following site: https://cran.r-project.org/web/packages/UScensus2010/index.html for the peer reviewer and end user of the application. The reviewer/user can choose via radio buttons four variable race selections for 1) Whites 2) Blacks 3) Hispanics and 4) Asians. 
+A variable demographic map has been created using R dataset information from the 2010 US Census - UScensus2010.
+A dataset called counties.rds has been downloaded to RStudio from the follwing site: https://gist.github.com/garrettgman/6465117. Supporting documentation for the app has also ben added.      
+#####2.	The application is shared on Rstudio's shiny server at this location: 
 #####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review.
-#####4.	The application is shared by posting the server.R and ui.R code here on github https://github.com/DataRacer11/Developing-Data-Products-Project/edit/master/README.md
+#####4.	The application is shared by posting the server.R and ui.R code here on github - see files here at: https://github.com/DataRacer11/Developing-Data-Products-Project/edit/master/README.md
 
 ####The application includes the following:
-#####1.	One or more forms of input (widget: textbox, radio button, checkbox, ...)
-#####2.	An operation on the ui input in sever.R
-#####3. Reactive output displayed as a result of server calculations
-#####4.	Ample ocumentation so that a novice user could use your application.
+#####1.	Two main forms of input (widgets: 4 radio buttons, slider range from 0 to 100%)
+#####2.	An operation on the ui input in sever.R with the following code: output$map <- renderPlot({ args <- switch(input$radio,
+#####3. Reactive output of the maps diplyed with as a result of server calculations for percentages of the race databeing displayed.
+#####4.	Documentation so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" application was provided.
 #####5.	The documentation is posted on the Shiny website and NOT as external link.
 #####6. The Shiny application is a simple package or the end user.
 
 ###Relevant Information:
-#####These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. The 13 attributes are (donated by Riccardo Leardi, riclea@anchem.unige.it )
- 	1. Alcohol
- 	2. Malic acid
- 	3. Ash
-	4. Alcalinity of ash  
- 	5. Magnesium
-	6. Total phenols
- 	7. Flavanoids
- 	8. Nonflavanoid phenols
- 	9. Proanthocyanins
-	10. Color intensity
- 	11. Hue
- 	12. OD280/OD315 of diluted wines
- 	13. Proline            
-#####Number of Instances: class 1, 59; class 2, 71; class 3, 48
-#####Number of Attributes: 13
-#####For Each Attribute: All attributes are continuous, No statistics available, but suggest to standardise variables for certain uses (e.g. for us with classifiers which are NOT scale invariant) NOTE: 1st attribute is class identifier (1-3)
-#####Missing Attribute Values: None
-#####Class Distribution: number of instances per class: class 1, 59; class 2, 71; class 3, 48
+##### Package ‘UScensus2010’
+##### February 19, 2015
+
+#####Type Package
+#####Title US Census 2010 Suite of R Packages
+#####Version 0.11
+#####Date 2011-11-18
+#####Author Zack W. Almquist <almquist@uci.edu>
+#####Maintainer Zack W. Almquist <almquist@uci.edu>
+#####Description US Census 2010 shape files and additional demographic data
+#####from the SF1 100 percent files. This package contains a number
+#####of helper functions for the UScensus2010blk,
+#####UScensus2010blkgrp, UScensus2010tract, UScensus2010cdp
+#####packages.
+
+#####URL http://www.ncasd.org/census2000/
+#####Repository CRAN
+#####Date/Publication 2012-07-12 05:22:36
