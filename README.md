@@ -7,8 +7,7 @@
 #####2.	The application is shared on Rstudio's shiny server at this location: http://rpubs.com/DataRacer11/137835  
 #####3.	The application link is shared by pasting it into the text box within the Coursera project area for DDP peer review.
 https://class.coursera.org/devdataprod-035/human_grading/view/courses/975223/assessments/5/submissions 
-#####4.	The application is shared by posting the server.R and ui.R code here on github - see files here at: https://github.com/DataRacer11/Developing-Data-Products-Project/edit/master/README.md
-https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/server.R - sharing Server.R on Github
+#####4.	The application is shared by posting the server.R and ui.R code here on github - see files here at: https://github.com/DataRacer11/Developing-Data-Products-Project/edit/master/README.md https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/server.R - sharing Server.R on Github
 https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/ui.R - sharing ui.R on Github
 https://github.com/DataRacer11/Developing-Data-Products-Project/blob/master/helpers.R - sharing supporting documentation from helpers.R file
 
