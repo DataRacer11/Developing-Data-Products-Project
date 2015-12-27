@@ -13,7 +13,7 @@
 #####2.	An operation on the ui input in sever.R with the following code: (see server.R file) output$map <- renderPlot({ args <- switch(input$radio,....
 #####3. Reactive output of individual US maps is diplayed in color as a result of server calculations showing percentages for each race.
 #####4.	Documentation has been added so that a novice user could use the "DataRacer11 - 2010 Variable Census Map" could use this simple application.
-#####5.	The documentation is posted on the Shiny website and NOT as external link.
+#####5.	The documentation is posted on the Shiny website and NOT posted on an external link.
 #####6. The Shiny application is a simple package or the end user.
 
 ###Relevant RStudio Package Information:
